@@ -1,0 +1,67 @@
+body {
+    font-family: 'DM Sans', sans-serif;
+    color: var(--sl-color-gray-30);
+}
+
+h1,  p {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+#content {
+    padding-top: 2em;
+    padding-left: 0.5em;
+    padding-right: 0.5em;
+    padding-bottom: 3em;
+    max-width: 720px;
+    margin: auto;
+}
+
+.content-container {
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.header h1 {
+    font-size: 3em;
+}
+
+.header .title {
+    margin-top: 0.25em;
+    margin-bottom: 0.25em;
+}
+
+.header .subtitle {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.card-overview {
+    width: 100%;
+}
+
+.card-overview small {
+    color: var(--sl-color-gray-50);
+}
+
+.card-overview [slot="footer"] {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.card-overview sl-button {
+    width: 48%;
+}
+
+.sketch-popup {
+    --width: calc(800px + 3em);
+    --height: calc(600px + 8em);
+}
+
+.sketch-popup iframe {
+    width: calc(800px + 1em);
+    height: calc(600px + 1em);
+    border: none;
+}

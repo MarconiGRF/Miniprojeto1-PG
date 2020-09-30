@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miniprojeto 1 - Processamento Gráfico</title>
+  
+  <!-- Fonte -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+  
+  <!-- Shoelace Library -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.19/dist/shoelace/shoelace.css">
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.19/dist/shoelace/shoelace.esm.js"></script>
+  
+  <!-- Folha de estilos customizada -->
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <!-- Controlador -->
+  <script src="js/controller.js"></script>
+  
+</head>
+<body>
+  <div id="content">
+    <div class="content-container header">
+      <h1 class="title">Miniprojeto 1 • Animações</h1>
+      <p class="subtitle">Processamento Gráfico • 2020.3</p>
+      <p>Marconi Gomes e Erick Almeida</p>
+    </div>
+    
+    <div class="content-container question">
+      
+      <sl-card class="card-overview">              
+        <!--
+          <img 
+          slot="image" 
+          src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" 
+          alt="A kitten sits patiently between a terracotta pot and decorative grasses."
+          >
+        -->
+        
+        <h2>Questão 1</h2>
+        <p>Crie uma animação (2D) que consiste em uma bola de raio 30 UC se movimentando pela tela colidindo elasticamente (não há perda ou ganho de energia pela bola durante as colisões) no chão e nas paredes. A bola deverá começar seu movimento a partir do canto inferior esquerdo, e velocidade vertical de 10 UC/frame. Considere também uma aceleração da gravidade de 0.5 UC/frame², e que o movimento de ida e volta deverá ser concluído em períodos de 4 s.
+          <br><em>Observação: UC = unidade de comprimento</em>
+        </p>
+        <small>1 ponto</small>
+        
+        <div slot="footer">
+          <sl-button class="open-sketch-popup-button" data-sketch-id="1" type="primary" pill><sl-icon slot="prefix" name="arrows-fullscreen"></sl-icon> Visualizar</sl-button>
+          <sl-button pill><sl-icon slot="prefix" name="code-slash"></sl-icon> Código-fonte</sl-button>
+        </div>
+      </sl-card>
+      
+    </div>
+    
+    <div class="content-container question">
+      
+      <sl-card class="card-overview">              
+        <!--
+          <img 
+          slot="image" 
+          src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" 
+          alt="A kitten sits patiently between a terracotta pot and decorative grasses."
+          >
+        -->
+        
+        <h2>Questão 2</h2>
+        <p>Para essa questão vocês deverão simular o movimento de um braço em 2D. O braço deverá iniciar seu movimento completamente alinhado com a vertical, e deve finalizar o movimento com o antebraço alinhado com a horizontal. A velocidade angular do antebraço deve ser o dobro da velocidade angular do braço, e o movimento deverá ter a duração de 2 segundos. Além disso, o comprimento do braço deve ser 2 UC enquanto que o Antebraço deve possuir 3 UC.
+        </p>
+        <small>2 pontos</small>
+        
+        <div slot="footer">
+          <sl-button class="open-sketch-popup-button" data-sketch-id="2" type="primary" pill><sl-icon slot="prefix" name="arrows-fullscreen"></sl-icon> Visualizar</sl-button>
+          <sl-button pill><sl-icon slot="prefix" name="code-slash"></sl-icon> Código-fonte</sl-button>
+        </div>
+      </sl-card>
+      
+    </div>
+    
+    <div class="content-container question">
+      
+      <sl-card class="card-overview">              
+        <!--
+          <img 
+          slot="image" 
+          src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" 
+          alt="A kitten sits patiently between a terracotta pot and decorative grasses."
+          >
+        -->
+        
+        <h2>Questão 3</h2>
+        <p>Crie uma animação (2D) de uma vista superior do plano XY do IR³ mostrando o caminho percorrido por uma partícula que se move pelo plano através de uma curva espiral formada pela combinação de semi-círculos de raios que dobram cada vez que ela passa pelo eixo OX, mas o centro sempre se mantém no eixo OX. O centro inicial do movimento da partícula será o ponto (0,0), o ponto inicial da trajetória será o ponto (-20,0) e deverá seguir no sentido anti-horário. Cada semicírculo deverá ser percorrido num período de 4 segundos.
+        </p>
+        <small>2 pontos</small>
+        
+        <div slot="footer">
+          <sl-button class="open-sketch-popup-button" data-sketch-id="3" type="primary" pill><sl-icon slot="prefix" name="arrows-fullscreen"></sl-icon> Visualizar</sl-button>
+          <sl-button pill><sl-icon slot="prefix" name="code-slash"></sl-icon> Código-fonte</sl-button>
+        </div>
+      </sl-card>
+      
+    </div>
+    
+    <div class="content-container question">
+      
+      <sl-card class="card-overview">              
+        <!--
+          <img 
+          slot="image" 
+          src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" 
+          alt="A kitten sits patiently between a terracotta pot and decorative grasses."
+          >
+        -->
+        
+        <h2>Questão 4</h2>
+        <p>Crie uma animação (2D) de uma vista superior do plano XY do IR³ de um círculo de raio 25 UC rolando na parede interna no sentido anti-horário, sem deslizar, de um círculo de raio 100 UC. cada volta completa no círculo maior deve durar 4 segundos.
+          <br><em>Observação: marque um ponto fixo do círculo interno para demonstrar o rolamento sem deslizar.</em>
+        </p>
+        <small>2 pontos</small>
+        
+        <div slot="footer">
+          <sl-button class="open-sketch-popup-button" data-sketch-id="4" type="primary" pill><sl-icon slot="prefix" name="arrows-fullscreen"></sl-icon> Visualizar</sl-button>
+          <sl-button pill><sl-icon slot="prefix" name="code-slash"></sl-icon> Código-fonte</sl-button>
+        </div>
+      </sl-card>
+      
+    </div>
+    
+    <div class="content-container question">
+      
+      <sl-card class="card-overview">              
+        <!--
+          <img 
+          slot="image" 
+          src="https://images.unsplash.com/photo-1559209172-0ff8f6d49ff7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=80" 
+          alt="A kitten sits patiently between a terracotta pot and decorative grasses."
+          >
+        -->
+        
+        <h2>Questão 5</h2>
+        <p>Crie uma animação em 3D com um círculo de raio 100 UC desenhado no plano XY rotacionado por 60° sob o eixo X e, rolando sem deslizar pelo perímetro dele, um círculo de raio 25 UC perpendicular ao plano onde o círculo maior se encontra.
+        </p>
+        <small>3 pontos</small>
+        
+        <div slot="footer">
+          <sl-button class="open-sketch-popup-button" data-sketch-id="5" type="primary" pill><sl-icon slot="prefix" name="arrows-fullscreen"></sl-icon> Visualizar</sl-button>
+          <sl-button pill><sl-icon slot="prefix" name="code-slash"></sl-icon> Código-fonte</sl-button>
+        </div>
+      </sl-card>
+      
+    </div>
+  </div>
+  
+  <sl-dialog class="sketch-popup">
+    <div class="p5-container">
+      
+    </div>
+    <sl-button slot="footer" class="fullscreen-sketch-popup-button">Visualizar em tela cheia</sl-button>
+    <sl-button slot="footer" type="primary" class="close-sketch-popup-button">Fechar</sl-button>
+  </sl-dialog>
+</body>
+</html>
