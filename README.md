@@ -6,7 +6,7 @@ Marconi Gomes (<mgrf@cin.ufpe.br>)
 
 ## Visualizar
 
-Visite a [página](https://marconigrf.github.io/miniprojeto1-pg) para visualizar as sketches do P5.js.
+Visite a [página](https://marconigrf.github.io/Miniprojeto1-PG) para visualizar as sketches do P5.js.
 
 ## Sketches
 
