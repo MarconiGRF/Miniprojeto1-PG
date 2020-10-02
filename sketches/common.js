@@ -11,7 +11,10 @@ const canvasSize = {
 const colorPalette = {
     lightBlue: '#009DFF',
     lightGray: '#EEEEEE',
-    slateGray: '#73828C'
+    slateGray: '#73828C',
+    green: '#44D926',
+    yellow: '#F2AC0D',
+    red: '#E02A06'
 };
 
 const targetFrameRate = 60;
