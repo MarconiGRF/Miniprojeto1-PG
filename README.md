@@ -10,4 +10,4 @@ Visite a [página](https://marconigrf.github.io/Miniprojeto1-PG) para visualizar
 
 ## Sketches
 
-O código-fonte das  _sketches_ está disponível no diretório [`sketches`](sketches).
+O código-fonte das _sketches_ está disponível no diretório [`sketches`](sketches).
