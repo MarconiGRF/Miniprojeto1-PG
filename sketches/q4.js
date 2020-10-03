@@ -1,7 +1,6 @@
 let circles;
 
 class Circles {
-
   outerCircle;
   innerCircle;
   lapDurationInFrames;
