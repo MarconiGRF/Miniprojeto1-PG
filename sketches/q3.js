@@ -34,9 +34,9 @@ class Spiral {
 
     for (let drawnArcs = 0; drawnArcs < arcsToDraw; drawnArcs++) {
       if (drawnArcs === (arcsToDraw - 1) && lastArcAngle !== 0) {
-        this.drawArc(centerX, radius, lastArcAngle, backwards)
+        this.drawArc(centerX, radius, lastArcAngle, backwards);
       } else {
-        this.drawArc(centerX, radius, 180, backwards)
+        this.drawArc(centerX, radius, 180, backwards);
       }
 
       backwards = !backwards;

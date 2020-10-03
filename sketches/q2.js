@@ -44,7 +44,7 @@ class Arm {
     translate(canvasSize.width / 2, canvasSize.height / 2);
     rotate(this.currentAngle);
 
-    this.drawEdge(this.upperArmLength)
+    this.drawEdge(this.upperArmLength);
     this.drawVertex(0, 0);
 
     translate(0, this.upperArmLength);

@@ -5,7 +5,6 @@ class BouncingBall {
   position;
   ground;
   gravity;
-  verticalSpeed;
   periodInSeconds;
   color;
   velocity;
@@ -15,7 +14,6 @@ class BouncingBall {
     this.ground = ground;
     this.position = createVector(radius, ground - radius);
     this.gravity = gravity;
-    this.verticalSpeed = verticalSpeed;
     this.periodInSeconds = periodInSeconds;
     this.color = color;
     this.velocity = createVector(0, verticalSpeed);
@@ -76,8 +74,8 @@ class Rectangle {
   }
 
   display() {
-    fill(this.color)
-    rect(this.x, this.y, this.rectangleWidth, this.rectangleHeight)
+    fill(this.color);
+    rect(this.x, this.y, this.rectangleWidth, this.rectangleHeight);
   }
 }
 

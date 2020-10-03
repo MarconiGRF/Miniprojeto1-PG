@@ -56,7 +56,7 @@ class Circles {
     
     rotate(this.innerCircle.currentAngle);
 
-    this.drawPoint(0, - this.innerCircle.radius)
+    this.drawPoint(0, - this.innerCircle.radius);
   }
 }
 
