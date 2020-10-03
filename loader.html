@@ -10,6 +10,7 @@
         
         if (sketchId) {
             document.head.appendChild(document.createElement('script')).src = `sketches/q${sketchId}.js`;
+            document.title = `Questão ${sketchId}`;
         } else {
             window.location.replace("index.html");
         }
