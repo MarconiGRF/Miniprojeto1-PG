@@ -1,8 +1,7 @@
 # Miniprojeto 1 de Processamento Gráfico - Animações
 *Processamento Gráfico (IF680)*  
 *Universidade Federal de Pernambuco*  
-Erick Almeida (<eaor@cin.ufpe.br>)
-Marconi Gomes (<mgrf@cin.ufpe.br>)
+Erick Almeida (<eaor@cin.ufpe.br>) e Marconi Gomes (<mgrf@cin.ufpe.br>)
 
 ## Visualizar
 
